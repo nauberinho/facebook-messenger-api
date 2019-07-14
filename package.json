@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node app.js"
+    "start": "nodemon app.js | lt --port 3000 -s messenger-api-setup"
   },
   "repository": {
     "type": "git",
@@ -20,6 +20,7 @@
     "ejs": "^2.6.1",
     "express": "^4.16.4",
     "i18n": "^0.8.3",
+    "nodemon": "^1.19.1",
     "path": "^0.12.7",
     "request": "^2.88.0"
   },
@@ -34,5 +35,3 @@
   },
   "homepage": "https://github.com/nauberinho/facebook-messenger-api#readme"
 }
-
-
